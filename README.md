@@ -8,7 +8,7 @@ This project was designed to fetch data from OpenWeatherMap API to create visual
 
 ## Part I - WeatherPy
 
-#Observations:
+## Observations:
 
 1. For the Latitude vs. Temperature Plot, there was one city in the northern hemisphere with temperature of about 40 degrees Celsius.
 
