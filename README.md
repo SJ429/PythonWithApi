@@ -8,7 +8,7 @@ This project was designed to fetch data from OpenWeatherMap API to create visual
 
 ## Part I - WeatherPy
 
-## Observations:
+### Observations:
 
 1. For the Latitude vs. Temperature Plot, there was one city in the northern hemisphere with temperature of about 40 degrees Celsius.
 
@@ -35,7 +35,7 @@ Also, linear regression for each relationship in the Northern Hemisphere (greate
 * Southern Hemisphere - Wind Speed (mph) vs. Latitude
 
 
-### Part II - VacationPy
+## Part II - VacationPy
 
 * A heat map was created that displayed the humidity for every city from the Part I above and then looked at an ideal weather condition. 
 
