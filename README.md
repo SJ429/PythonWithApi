@@ -4,7 +4,8 @@
 
 Whether financial, political, or social -- data's true power lies in its ability to answer questions definitively. 
 
-I created a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, I utilized simple Python library and OpenWeatherMap API
+I created a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. https://pypi.python.org/pypi/citipy and https://openweathermap.org/api
+were used.
 
 ## Part I - WeatherPy
 
