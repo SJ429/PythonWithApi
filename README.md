@@ -9,14 +9,12 @@ This project was designed to fetch data from OpenWeatherMap API to create visual
 ## Part I - WeatherPy
 
 #Observations:
-Latitude vs. Temperature Plot
-There is one city in the northern hemisphere with temperature of about 40 degrees Celsius.
 
-Latitude vs. Humidity Plot
-The humidity level is not beyond 100% in any city in the northern or the southern hemisphere and one city in the northern hemisphere is about at 0% humidity.
+1. For the Latitude vs. Temperature Plot, there was one city in the northern hemisphere with temperature of about 40 degrees Celsius.
 
-Latitude vs. Wind Speed Plot
-There are 2 cities with wind speed of 10 or more degrees and these cities are located in the northern hemisphere.
+2. For Latitude vs. Humidity Plot, the humidity level was not beyond 100% in any city in the northern or the southern hemisphere and one city in the northern hemisphere was about at 0% humidity.
+
+3. For Latitude vs. Wind Speed Plot, there were 2 cities with wind speed of 10 or more degrees and these cities were located in the northern hemisphere.
 
 Scatter plots were built to display the following relationships:
 
@@ -39,7 +37,7 @@ Also, linear regression for each relationship in the Northern Hemisphere (greate
 
 ### Part II - VacationPy
 
-* A heat map was created that displayed the humidity for every city from the part I above and then looked at an ideal weather condition. 
+* A heat map was created that displayed the humidity for every city from the Part I above and then looked at an ideal weather condition. 
 
 * Google Places API was used to find the first hotel for each city located within 5000 meters of the coordinates.
 
