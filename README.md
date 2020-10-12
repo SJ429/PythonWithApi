@@ -4,13 +4,16 @@
 
 Whether financial, political, or social -- data's true power lies in its ability to answer questions definitively. 
 
+I created a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, I utilized simple Python library and OpenWeatherMap API
+
 ## Part I - WeatherPy
 
 Created a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. 
 
 Created a series of scatter plots to showcase the following relationships:
 
-After each plot add a sentence or too explaining what the code is and analyzing.
+After each plot added a sentence or too explaining what the code is and analyzing.
+
 
 * Temperature (F) vs. Latitude
 * Humidity (%) vs. Latitude
@@ -30,18 +33,9 @@ Run linear regression on each relationship, Northern Hemisphere (greater than or
 
 ### Part II - VacationPy
 
-* Create a heat map that displays the humidity for every city from the part I .
+* Created a heat map that displays the humidity for every city from the part I above and then narrow down to find an ideal weather condition. 
+* Used Google Places API to find the first hotel for each city located within 5000 meters of the coordinates.
 
-* Narrow down the DataFrame to find your ideal weather condition. For example:
-
-  * A max temperature lower than 80 degrees but higher than 70.
-
-  * Wind speed less than 10 mph.
-
-  * Zero cloudiness.
-
-* Using Google Places API to find the first hotel for each city located within 5000 meters of your coordinates.
-
-* Plot the hotels on top of the humidity heatmap with each pin containing the **Hotel Name**, **City**, and **Country**.
+* Plotted the hotels on top of the humidity heatmap with each pin containing the **Hotel Name**, **City**, and **Country**.
 
  
